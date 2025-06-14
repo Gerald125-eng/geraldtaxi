@@ -1,0 +1,2461 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif ;
+    /* height: 2000vh; */
+}
+
+/* header */
+ header{
+    width: 100%;
+    height: 50px;
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.infor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.phone{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.email{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.phone img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.email img{
+    width: 20px;
+    height: 20px;
+}
+
+.social_media{
+    display: flex;
+    gap: 20px;
+}
+
+.social_media img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+/* media query */
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    header{
+        display: none;
+    }
+
+}
+
+
+
+
+/* header end here */
+
+
+
+/* nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+
+.nav_link{
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.nav_link ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_link ul a:hover{
+    color: yellow;
+}
+.cart_search img{
+   width: 25px;
+    height: 25px;
+}
+.cart_search{
+   display: flex;;
+   gap: 10px;
+}
+
+.Book {
+      background-color: #ffeb00; 
+      padding: 18px 20px;
+      position: relative;
+      width: 250px;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+}
+    
+
+.Book_stripe {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 15px;
+      height: 100%;
+      background-color:black;
+      transform: skewX(-10deg);
+}
+
+
+.Book a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .Book:hover{
+        border: yellow solid 3px;
+        background: black;
+        color: #eae4e4;
+    }
+
+.menu img{
+    width: 30px;
+    height: 30px;
+}
+
+.icons8-search-50{
+    background: #000;
+}
+
+.menu{
+    display: none;
+}
+
+.nav_link_second{
+    display: none;
+}
+
+
+
+
+/* media query */
+
+@media (min-width : 320px) and  (max-width: 1024px){
+   .nav_link {
+        display: none;
+    }
+    nav{
+        background: black;
+        padding: 10px 10px;
+        height: 50px;
+    }
+
+    .Book{
+        display: none;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .menu{
+    display: flex;
+   }
+
+    .cart_search{
+    margin-left: 120px;
+   }
+
+   .icons_png{
+    display: none; 
+    background: #000;
+   }
+
+  
+
+   .cart_search img{
+    width: 20px;
+    height: 20px;
+   }
+
+    .nav_link_second{
+    display: none;
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 350px;
+    background: black;
+    /* text-align: center; */
+    transition: 1.5s;
+   }
+
+   .nav_link_second a{
+       text-decoration: none;
+        color: white;
+        font-size: 15px;
+        margin-left: 50px;
+
+   }
+
+}
+
+@media (min-width : 768px) and  (max-width: 1024px){
+    .cart_search{
+        margin-left: 550px;
+    }
+
+    .nav_link_second{
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 550px;
+    background: black;
+    /* text-align: center; */
+    transition: 1.5s;
+   }
+
+   .nav_link_second a{
+       text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin-left: 150px;
+
+   }
+   .nav_link_second ul{
+    padding: 5px;
+   }
+}
+
+
+
+
+/* nav end here */
+
+
+
+
+/* background_image */
+
+.background_image{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.background_image img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.text_background{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    
+}
+
+.text_background h1{
+    font-size: 80px;
+    color: white;
+   
+}
+
+  .Book_Discover {
+        background-color: #ffeb00; 
+        padding: 18px 20px;
+        position: relative;
+        width: 250px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        transition: 0.3s ease-in-out;
+      
+    }
+    
+
+    .Book_stripe_Discover {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 15px;
+        height: 100%;
+        background-color:black;
+    }
+
+.text_background{
+   display: inline-block;
+   animation: display-text 3s linear infinite ;
+   animation-delay: calc(-1s * var(--i));
+}
+
+
+@keyframes display-text {
+    25%,
+    100%{
+        display: none;
+    }
+}
+
+
+
+
+@keyframes blink{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 500%;
+    }
+} 
+
+.hide{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(-0);
+} 
+
+
+
+
+
+
+.text_background p{
+    font-size: 30px;
+    color: white;
+}
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    .background_image{
+        height: fit-content;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .text_background h1{
+        font-size: 30px;
+        color: white;
+    }
+
+
+    .background_image img{
+        height: 50vh;
+    }
+    .text_background{
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        
+    }
+
+    .text_background p{
+        font-size: 15px;
+        color: white;
+    } 
+    
+    .Book_Discover {
+        background-color: #ffeb00; 
+        padding: 18px 20px;
+        position: relative;
+        width: 250px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        transition: 0.3s ease-in-out;
+    }
+    
+
+    .Book_stripe_Discover {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 15px;
+        height: 100%;
+        background-color:black;
+    }
+
+
+    
+}
+
+@media (min-width : 768px) and  (max-width: 1024px){
+     .text_background h1{
+        font-size: 70px;
+        color: white;
+    }
+     .text_background p{
+        font-size: 30px;
+        color: white;
+    }
+
+    .text_background{
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        
+    }
+
+    
+
+}
+/* background_image end here*/
+
+
+
+/* discover_car */
+
+.discover_car{
+    width: 90%;
+    height: 119vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #000;
+    margin-left: 70px;
+    gap: 100px;
+}
+
+.diagonal-bar {
+      width: 150px;
+      height: 130vh;
+      background-color: yellow;
+      transform: rotate(15deg);
+      position: relative;
+      margin-left: 100px;
+      clip-path: polygon(0% 5%, 100% 0%, 95% 95%, 0% 100%);
+
+      
+}
+
+.confirm_booking{
+    color: white;
+}
+.car_diagonal img{
+    position: absolute;
+    top: 350px;
+}
+
+.car_diagonal img{
+    width: 30%;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.input input{
+    padding: 15px 30px;
+    color: white;
+}
+
+#More{
+    color: #000;
+}
+
+.confirm_booking h1{
+    font-size: 50px;
+    background-position: -800px 0;
+    animation: back 7s linear infinite alternate;
+    -webkit-text-stroke: 1px #f1ecec;
+    color: transparent;
+    background-image: linear-gradient(#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+}
+
+@keyframes back{
+    100%{
+        background-position: 0 0;
+    }
+}
+.confirm_booking h3{
+    font-size: 20px;
+    color: yellow;
+}
+
+
+.Book_Discover_text {
+        background-color: #ffeb00; 
+        padding: 18px 20px;
+        position: relative;
+        width: 250px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        transition: 0.3s ease-in-out;
+}
+    
+
+.Book_stripe_Discover_texr {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 15px;
+        height: 100%;
+        background-color:black;
+}
+
+
+
+.Book_Discover_text a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .Book_Discover_text:hover{
+        border: yellow solid 3px;
+        background: black;
+        color: #eae4e4;
+    }
+
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    .car_diagonal{
+        display: none;
+    }
+
+    .confirm_booking h3{
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .confirm_booking h1{
+        font-size: 30px;
+         margin-left: 15px;
+    }
+    .discover_car{
+        width: 100%;
+        height: fit-content;
+        
+    }
+
+    .input{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-left: 15px;
+        
+    }
+    .input input{
+        height: 50px;
+        width: 330px;
+    }
+        .discover_car{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: #000;
+        margin-top: -5px;
+        margin-left: 0;
+        gap: 100px;
+    }
+      .Book_Discover_text {
+        background-color: #ffeb00; 
+        padding: 10px 20px;
+        position: relative;
+        width: 230px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        transition: 0.3s ease-in-out;
+        margin-left: 15px;
+    }
+    
+
+    .Book_stripe_Discover_texr {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            width: 15px;
+            height: 100%;
+            background-color:black;
+    }
+    .Book_Discover_text a{
+        font-size: 30px;
+    }
+}
+
+
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+       .input input{
+        height: 70px;
+        font-size: 20px;
+        width: 500px;
+    }
+
+     .confirm_booking h1{
+        font-size: 50px;
+     }
+
+      .Book_Discover_text {
+        background-color: #ffeb00; 
+        padding: 20px 30px;
+        position: relative;
+        width: 250px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        transition: 0.3s ease-in-out;
+        margin-left: 15px;
+    }
+    
+
+    .Book_stripe_Discover_texr {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            width: 15px;
+            height: 100%;
+            background-color:black;
+    }
+}
+/* discover_car end here */
+
+
+
+
+/* welcome_to_company */
+
+.welcome_to_company{
+    width: 100%;
+    height: 130vh;
+    justify-content: space-between;
+    display: flex;
+    padding: 90px 90px;
+    align-items: center;
+    position: relative;
+    animation: blink 3s linear infinite alternate;
+}
+
+.welcome_to_company_diagonal{
+    position: relative;
+    
+}
+
+.welcome_to_company_text_area{
+    margin-top: 80px;
+    animation-delay: 0.5s ;
+}
+
+.welcome_to_company_text_area h5{
+    font-size: 30px;
+    animation-delay: 0.5s ;
+}
+
+.welcome_to_company_text_area h1{
+    font-size: 50px;
+    
+}
+
+.welcome_to_company_text_area p{
+    font-size: 20px;
+}
+
+.image_1{
+    width: 350px;
+    position: absolute;
+    top: 110px;
+    left: 13px;
+}
+.image_2{
+    width: 190px;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+}
+.image_3{
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 280px;
+}
+
+
+.diagonal {
+      width: 250px;
+      height: 100vh;
+      background-color: yellow;
+      transform: rotate(10deg);
+      position: relative;
+      margin-top: 30px;
+      margin-left: 100px;
+      clip-path: polygon(0% 5%, 100% 0%, 95% 95%, 0% 100%);
+}
+
+.online{
+    display: flex;
+    gap: 20px;
+     /* justify-content: center; */
+    align-items: center; 
+}
+.online img{
+   width: 30px;
+}
+
+.our_portfolio{
+    display: flex;
+    gap: 20px;
+    animation-delay: 5.5s ;
+}
+
+.our_portfolio div{
+    width: 5px;
+    height: 70px;
+    background: #000;
+}
+
+.book_taxi_area{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.book_took_img img{
+    width: 200px;
+}
+
+.More{
+    padding: 10px 20px;
+}
+
+
+
+.Boo {
+      background-color: #ffeb00; 
+      padding: 15px 20px;
+      position: relative;
+      width: 250px;
+      overflow: hidden;
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+}
+    
+
+.Book_strip {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 15px;
+      height: 100%;
+      background-color:black;
+      transform: skewX(-10deg);
+}
+
+
+
+.Boo a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .Boo:hover{
+        border: yellow solid 3px;
+        background: black;
+        color: #eae4e4;
+    }
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    .welcome_to_company{
+        width: 100%;
+        height: fit-content;
+        flex-direction: row;
+        padding: 20px 20px;
+        margin-bottom: 500px;
+        
+    }
+    .diagonal{
+        display: none;
+    }
+    .image_3{
+        display: none;
+    }
+    .image_2{
+        display: none;
+    }
+    .image_1{
+        width: 300px;
+        position: absolute;
+        top: 500px;
+        left: 13px;
+    }
+
+    .welcome_to_company_text_area h5{
+        font-size: 20px;
+    }
+    .welcome_to_company_text_area h1{
+        font-size: 30px;
+    }
+
+   .book_taxi_area{
+    flex-direction: column;
+   }
+
+    .online img{
+    width: 10px;
+    }
+
+    .Boo {
+      background-color: #ffeb00; 
+      /* padding: 10px 20px; */
+      position: relative;
+      width: 200px;
+      overflow: hidden;
+      display: flex;
+     font-size: 10px;
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+}
+    
+
+    .Book_strip {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 15px;
+        height: 100%;
+        background-color:black;
+        transform: skewX(-10deg);
+    }
+}
+
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+    .image_1{
+        width: 400px;
+        height: 400px;
+    }
+
+    .welcome_to_company_text_area{
+        margin-right: 90px;
+    }
+    .welcome_to_company_text_area h5{
+        font-size: 30px;
+    }
+    .welcome_to_company_text_area h1{
+        font-size: 50px;
+    }
+    
+    .welcome_to_company_text_area p{
+        font-size: 25px;
+    }
+   .book_taxi_area{
+    flex-direction: column;
+   }
+
+    .online img{
+    width: 20px;
+    }
+}
+/* welcome_to_company end here */
+
+
+
+
+
+/* latest */
+
+.latest{
+    height: 150vh;
+    width: 100%;
+    background: rgb(175, 174, 174);
+    margin-top: 80px;
+}
+
+.latet_text{
+    flex: auto;
+    text-align: center;
+}
+
+
+.latet_text h3{
+   font-size: 20px;
+   color: #454343;
+    /* margin-top:150px; */
+}
+
+.latet_text h1{
+   font-size: 60px;
+   background-position: -1000px 0;
+    animation: back 5s linear infinite alternate;
+    -webkit-text-stroke: 1px #0e0d0d;
+    color: transparent;
+    background-image: linear-gradient(#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+}
+
+
+.image_area img{
+    height: 280px;
+    width: 400px;
+        clip-path: polygon(10% 13%, 100% 0%, 90% 100%, 0% 100%);
+        transform: rotate(-5deg);
+        position: relative;
+}
+.business_container{
+    position: relative;
+    /* display: flex; */
+}
+.business_container2{
+    position: relative;
+    /* display: flex; */
+}
+.business_container3{
+    position: relative;
+    /* display: flex; */
+}
+
+.business{
+    display: flex;
+    justify-content: space-between;
+  overflow: auto;
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+
+.slanted-container {
+    width: 300px;
+    height: 20px;
+    background-size: cover;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+     transform: rotate(-5deg);
+     position: absolute;
+     top: 280px;
+     left: 30px;
+}
+
+
+
+.slanted-container2 {
+    width: 300px;
+    height: 20px;
+    background-size: cover;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+     transform: rotate(-5deg);
+     position: absolute;
+     top: 280px;
+     left: 30px;
+}
+
+
+
+.slanted-container3 {
+    width: 300px;
+    height: 20px;
+    background-size: cover;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+     transform: rotate(-5deg);
+     position: absolute;
+     top: 280px;
+     left: 30px;
+}
+
+
+
+
+
+
+
+.text_image_area{
+    margin-top: 100px;
+    text-align: center;
+}
+/* .slanted-container:hover{
+    background: yellow;
+} */
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    .latest{
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+    }
+    .business{
+        width: 100%;
+       overflow: scroll;
+        padding: 0px 0px 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+    .image_area img{
+        height: 280px;
+        width: 340px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        transform: rotate(0deg);
+        position: relative;
+    }
+
+    .slanted-container {
+    width: 300px;
+    height: 20px;
+    background-size: cover;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+     transform: rotate(0deg);
+     position: absolute;
+     top: 279px;
+     left: 10px;
+    }
+    .slanted-container2 {
+    width: 300px;
+    height: 20px;
+    background-size: cover;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+     transform: rotate(0deg);
+     position: absolute;
+     top: 279px;
+     left: 10px;
+    }
+    .slanted-container3 {
+    width: 300px;
+    height: 20px;
+    background-size: cover;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+     transform: rotate(0deg);
+     position: absolute;
+     top: 279px;
+     left: 10px;
+    }
+   
+    .latet_text h1{
+        font-size: 30px;
+    }
+
+    .text_image_area p{
+        /* padding: 50px; */
+        /* margin: 0; */
+    }
+   
+}
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+     .business{
+        width: 95%;
+       overflow: scroll;
+        padding: 0px 0px 0px 400px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+     .latest{
+        width: 100%;
+        height: 80vh;
+        padding: 30px;
+    }
+}
+/* latest end here */
+
+
+
+
+
+
+/* your_ride */
+
+/* your_ride */
+
+.your_ride{
+    width: 100%;
+    height: 200vh;
+    margin-top: 150px;
+   
+}
+
+.select{
+    text-align: center;
+}
+
+.select h5{
+    font-size: 20px;
+    color: #5f5c5c;
+}
+.select h1{
+    font-size: 80px;
+    background-position: -1010px 0;
+    animation: back 3s linear infinite alternate;
+    /* -webkit-text-stroke: 1px #111010; */
+    color: transparent;
+    background-image: linear-gradient(#111111);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+}
+
+.choose_our_taxi{
+    display: flex;
+    gap: 50px;
+    padding: 55px 50px;
+    overflow-x: scroll;
+    /* margin-bottom: 50px; */
+}
+
+.choose_our_taxi::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.taxi{
+    position: relative;
+    margin-top: 100px;
+    flex: auto;
+    width: 300px;
+    height: 650px;
+    border:  solid 1px black;
+    border-top: none;
+}
+
+.taxi:hover
+{
+    background: #000;
+     transition: 0.8s ease;
+    color: aliceblue;
+    border: solid white 1px;
+}
+
+.image_taxi img{
+    height: 200px;
+    width: 305px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.slanted- img{
+    width: 200px;
+}
+.slanted- img{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+.taxi1{
+    position: relative;
+    margin-top: 100px;
+    flex: auto;
+    width: 300px;
+    height: 650px;
+    border:  solid 1px black;
+    border-top: none;
+}
+
+.taxi1:hover
+{
+    background: #000;
+     transition: 0.8s ease;
+    color: aliceblue;
+    border: solid white 1px;
+}
+
+.image_taxi1 img{
+    height: 200px;
+    width: 305px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.slanted1- img{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+.taxi2{
+    position: relative;
+    margin-top: 100px;
+    flex: auto;
+    width: 300px;
+    height: 650px;
+    border:  solid 1px black;
+    border-top: none;
+}
+
+.taxi2:hover
+{
+    background: #000;
+     transition: 0.8s ease;
+    color: aliceblue;
+    border: solid white 1px;
+}
+
+.image_taxi2 img{
+    height: 200px;
+    width: 305px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.slanted2- img{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
+
+.taxi3{
+    position: relative;
+    margin-top: 100px;
+    flex: auto;
+    width: 300px;
+    height: 650px;
+    border:  solid 1px black;
+    border-top: none;
+}
+
+.taxi3:hover
+{
+    background: #000;
+     transition: 0.8s ease;
+    color: aliceblue;
+    border: solid white 1px;
+}
+
+.image_taxi3 img{
+    height: 200px;
+    width: 305px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.slanted3- img{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+.taxi4{
+    position: relative;
+    margin-top: 100px;
+    flex: auto;
+    width: 300px;
+    height: 650px;
+    border:  solid 1px black;
+    border-top: none;
+}
+
+.taxi4:hover
+{
+    background: #000;
+     transition: 0.8s ease;
+    color: aliceblue;
+    border: solid white 1px;
+}
+
+.image_taxi4 img{
+    height: 200px;
+    width: 305px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.slanted4- img{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
+
+
+.BMW{
+    margin-top: 100px;
+    text-align: center;
+    flex: auto;
+}
+.initial{
+     align-items: center;
+     justify-content: center;
+    /* width: 381px; */
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    font-size: 20px;
+    /* margin-left: 80px; */
+}
+
+.BMW a{
+    padding: 10px 38px;
+    border: #000 solid 2px;
+    text-decoration: none;
+    color: rgb(255, 149, 0);
+}
+
+@media (min-width : 320px) and  (max-width: 1024px){
+   .your_ride{
+    width: 100%;
+    height: fit-content;
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+   
+}
+   .select h1{
+        font-size: 40px;
+        margin-top: 50px;
+   }
+
+
+}
+/* your_ride end here */
+
+
+
+/* cityCar */
+
+.cityCar{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./Image/bg-testi1.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_container{
+    position: relative;
+}
+
+.polygon{
+    width: 80px;
+    height: 200px;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: 180px;
+}
+
+
+.diagonal- {
+      width: 300px;
+      height: 102vh;
+      background-color: yellow;
+      transform: rotate(10deg);
+      position: relative;
+      margin-left: 100px;
+      clip-path: polygon(0% 10%, 100% 0%, 95% 95%, 0% 100%);
+
+      
+}
+
+.polygon_man img{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+}
+.passenger{
+    /* margin-left: 100px; */
+    padding: 20px 80px;
+}
+
+.passenger h1{
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.reviwe p{
+    font-size: 30px;
+}
+
+.review_lorem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+   height: 200px;
+    border-bottom: black solid 1px;
+   
+}
+
+.review_lorem div{
+    width: 5px;
+    height: 150px;
+    background: yellow;
+}
+
+.antora{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 80px;
+    margin-top: 50px;
+}
+.antora img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+
+    .cityCar{
+        width: 100%;
+        height: fit-content;
+    }
+    .image_container{
+        display: none;
+    }
+
+    .passenger h1{
+    font-size: 25px;
+    margin-top: 50px;
+   }
+
+    .reviwe p{
+        font-size: 20px;
+    }
+
+    .review_lorem{
+        flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    }
+    
+    .antora{
+        gap: 20px;
+    }
+    .antora_text h2{
+        font-size: 18px;
+    }
+    .antora_text h3{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width : 768px) and  (max-width: 1024px){
+    .passenger h1{
+        font-size: 40px;
+    }
+
+    .reviwe p{
+        font-size: 28px;
+    }
+
+    .antora_text h2{
+        font-size: 22px;
+    }
+    .antora_text h3{
+        font-size: 18px;
+    }
+}
+/* cityCar end here */
+
+
+
+
+
+
+/* question */
+
+.question{
+    width: 100%;
+    height: 105vh;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.frequently{ 
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.frequently h5{
+    font-size: 20px;
+    /* margin-top: 100pxw; */
+}
+.frequently h1{
+    font-size: 50px;
+}
+
+.cap{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    border-bottom:  1px solid black;
+}
+
+.cap img{
+    width: 30px;
+}
+
+.cap p{
+   font-size: 20px;
+}
+
+.capp{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    border-bottom:  1px solid black;
+}
+.capp img{
+    width: 30px;
+}
+
+.cappp{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    border-bottom:  1px solid black;
+}
+.cappp img{
+    width: 30px;
+}
+
+
+.capppp{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 50px;
+    border-bottom:  1px solid black;
+}
+.capppp img{
+    width: 30px;
+}
+
+
+
+.polygon_tour_taxi{
+    width: 150px;
+    height: 400px;
+    background: #000;
+    background-position: center;
+    clip-path: polygon(0% 5%, 80% 0%, 80% 73%, 0% 80%);
+    transition: 0.3s ease-in-out;
+    top: -11px;
+    left: 600px;
+    position: absolute;
+    transform: rotate(9deg);
+}
+
+
+.diagonal-bar_3 {
+      width: 250px;
+      height: 100vh;
+      transform: rotate(15deg);
+      background-image: url(./Image/news5-1.jpg);
+      position: absolute;
+      top: -24px;
+      clip-path: polygon(0% 7%, 100% 0%, 95% 95%, 0% 100%);
+     transform: rotate(9deg);
+     left: 720px;
+      
+}
+
+.diagonal-bar_4 {
+      width: 180px;
+      height: 100vh;
+      transform: rotate(19deg);
+      /* background-image: url(./Image/news5-1.jpg); */
+      background: yellow;
+      position: absolute;
+      top: -20px;
+      clip-path: polygon(0% 5.5%, 100% 0%, 95% 95%, 0% 100%);
+     transform: rotate(10deg);
+     left: 1000px;
+      
+}
+
+@media (min-width : 320px) and  (max-width: 1024px){
+  
+
+   .tour_taxi{
+    display: none;
+   }
+   
+   .frequently h1{
+    font-size: 30px;
+   }
+
+   .question{
+    height: fit-content;
+   }
+    
+   .cap{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border-bottom:  1px solid black;
+}
+
+    .cap img{
+        width: 20px;
+    }
+
+    .cap p{
+    font-size: 10px;
+    }
+
+    .capp{
+        display: flex;
+        gap: 30px;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+        border-bottom:  1px solid black;
+    }
+    .capp img{
+        width: 20px;
+    }
+
+    .cappp{
+        display: flex;
+        gap: 30px;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 290px;
+        height: 50px;
+        border-bottom:  1px solid black;
+    }
+    .cappp img{
+        width: 20px;
+    }
+
+
+    .capppp{
+        display: flex;
+        gap: 30px;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+        border-bottom:  1px solid black;
+    }
+    .capppp img{
+        width: 20px;
+    }
+}
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+   
+}
+/* question end here*/
+
+
+
+
+
+
+
+/* see_our */
+
+.gen_see_our{
+    height: 180vh;
+    position: relative;
+}
+
+.see_our{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    /* position: absolute; */
+    left: 150px;
+    /* position: relative; */
+}
+
+.see_our img{
+    position: absolute;
+    left: 550px;
+    top: 80px;
+}
+
+.see_text h1{
+    color: white;
+     left: 380px;
+     top: 260px;
+     position: absolute;
+     text-align: center;
+     font-size: 40px;
+}
+
+
+.trustedcab{
+    width: 80%;
+    height: 80vh;
+    background: yellow;
+    position: absolute;
+    top: 400px;
+    /* position: relative; */
+    left: 110px;
+}
+
+.trust{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.trust h2{
+    font-size: 50px;
+}
+.trust h6{
+    font-size: 20px;
+}
+
+.Boo {
+      background-color: #0c0c0b; 
+      padding: 25px 20px;
+      position: relative;
+      width: 250px;
+      overflow: hidden;
+      display: flex;
+     color: white;
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+}
+    
+
+.Book_strip {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 15px;
+      height: 100%;
+      background-color:yellow;
+      transform: skewX(-10deg);
+}
+
+
+.polygon_tour_{
+    width: 130px;
+    height: 350px;
+    background:white;
+    background-position: center;
+    clip-path: polygon(0% 10%, 80% 5%, 80% 65%, 0% 80%);
+    transition: 0.3s ease-in-out;
+    top: -26px;
+    left: 600px;
+    position: absolute;
+    transform: rotate(10deg);
+}
+.polygon_trusted{
+    width: 250px;
+    height: 661px;
+    background:rgb(11, 10, 10);
+    background-position: center;
+    clip-path: polygon(0% 8%, 80% 3%, 80% 75%, 0% 80%);
+    transition: 0.3s ease-in-out;
+    top: -38px;
+    left: 700px;
+    position: absolute;
+    transform: rotate(9deg);
+}
+
+.img_trusted img{
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    top: -80px;
+    left: 620px;
+}
+
+@media (min-width : 320px) and  (max-width: 1024px){
+
+    .gen_see_our{
+        width: 100%;
+         height: 60vh;
+    }
+
+    .image_trusted{
+        display: none;
+    }
+    .see_our{
+        width: 100%;
+        height: fit-content;
+    }
+    .see_our img{
+    position: absolute;
+    left: 115px;
+    width: 150px;
+    top: 80px;
+   }
+
+   .trustedcab{
+    width: 80%;
+    height: 50vh;
+    background: yellow;
+    position: absolute;
+    top: 400px;
+    /* position: relative; */
+    left: 40px;
+   }
+
+   .see_text h1{
+    color: white;
+     left: 30px;
+     top: 260px;
+     position: absolute;
+     text-align: center;
+     font-size: 25px;
+   }
+   .trust h2{
+     font-size: 30px;
+   }
+
+   .Boo {
+      background-color: #0c0c0b; 
+      padding: 20px 20px;
+      position: relative;
+      width: 180px;
+      overflow: hidden;
+      display: flex;
+      font-size: 15px;
+     color: white;
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+   }
+    
+
+   .Book_strip {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 15px;
+      height: 100%;
+      background-color:yellow;
+      transform: skewX(-10deg);
+    }
+
+    .see_our{
+    width: 100%;
+    height: 70vh;
+    background: #000;
+    /* position: absolute; */
+    left: 150px;
+    /* position: relative; */
+   }
+
+   .trust{
+    margin-top: 50px;
+    margin-left: 30px;
+   }
+}
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+     .see_our img{
+    position: absolute;
+    left: 330px;
+    width: 150px;
+    top: 80px;
+   }
+
+   .see_text h1{
+    color: white;
+     left: 230px;
+     top: 260px;
+     position: absolute;
+     text-align: center;
+     font-size: 25px;
+   }
+
+   .trustedcab{
+    width: 80%;
+    height: 50vh;
+    background: yellow;
+    position: absolute;
+    top: 400px;
+    /* position: relative; */
+    left: 80px;
+   }
+   
+   .trust{
+    margin-top: 50px;
+    margin-left: 80px;
+   }
+
+    .trust h2{
+     font-size: 50px;
+   }
+   
+}
+/* see_our end here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* news_container */ 
+
+.news_container{
+    width: 98%;
+    height: 140vh;
+}
+
+.text_news{
+    text-align: center;
+}
+
+.image_news{
+    display: flex;
+     align-items: center;
+    overflow-x: auto;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.image_news::-webkit-scrollbar{
+    display: none;
+}
+
+.img_news{
+    width: 371px;
+    height: 267px;
+    overflow: hidden;
+    box-shadow: -1px 5px 15px;
+    position: relative;
+}
+
+.img_news img{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    transform: scale(var(--zoom, 1));
+    transform-origin: var(--x) var(--y);
+    transition: transform 0.3s ease;
+}
+
+.img_news:hover{
+     --zoom: 3;
+}
+
+
+.img_container{
+    position: relative;
+}
+.Update {
+      background-color: yellow; 
+      padding: 25px 20px;
+      position: relative;
+      width: 250px;
+      overflow: hidden;
+      display: flex;
+     color: rgb(18, 17, 17);
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(8% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+      position: absolute;
+      top: 240px;
+      left: 50px;
+}
+    
+
+.Book_Update {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 15px;
+      height: 100%;
+      background-color:rgb(237, 237, 231);
+      transform: skewX(-10deg);
+}
+
+.text_new_{
+    margin-top: 80px;
+}
+
+.text_news h5{
+   font-size: 20px;
+}
+.text_news h1{
+   font-size: 50px;
+}
+.image_text_new{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.image_text_new img{
+    width: 50px;
+} 
+
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    .news_container{
+        width: 80%;
+        height: fit-content;
+        margin-top: 400px;
+    }
+
+    .image_news{
+         padding: 0 0 0 385px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+    }
+
+    .img_news{
+        width: 230px;
+        height: 160px;
+        overflow: hidden;
+        box-shadow: -1px 5px 15px;
+        position: relative;
+    }
+
+    .img_news img{
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+        transform: scale(var(--zoom, 1));
+        transform-origin: var(--x) var(--y);
+        transition: transform 0.3s ease;
+    }
+
+    .img_news:hover{
+        --zoom: 3;
+    }
+        .Update {
+        background-color: yellow; 
+        padding: 15px 20px;
+        position: relative;
+        width: 180px;
+        overflow: hidden;
+        display: flex;
+        color: rgb(18, 17, 17);
+        justify-content: space-between;
+        align-items: center;
+        clip-path: polygon(8% 0%, 100% 0%, 95% 100%, 0% 100%);
+        transition: 0.3s ease-in-out;
+        position: absolute;
+        top: 130px;
+        left: 30px;
+    }
+    .Update h3{
+        font-size: 10px;
+    }
+
+        .text_new_ p{
+    font-size: 11px;
+    }
+    .text_new_ h1{
+    font-size: 13px;
+    }
+
+    .Book_Update {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 8px;
+      height: 100%;
+      background-color:rgb(237, 237, 231);
+      transform: skewX(-10deg);
+    }
+
+    .text_new_{
+        margin: 30px;
+        padding: 0 0 0 20px;
+    }
+
+    .news_container h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+    .news_container{
+        width: 95%;
+        height: fit-content;
+        margin-top: 400px;
+    }
+     .image_news{
+         padding: 0 0 0 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+    }
+}
+/* news_container end here*/ 
+
+
+
+
+
+
+/* image_footer */
+
+
+.image_footer{
+    background-image: url(./Image/pattern-4.jpg);
+    width: 100%;
+    height: 120vh;
+    
+}
+
+.logo2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 30px 30px;
+}
+.logo2 p{
+    color: white;
+}
+
+.logo2_Update {
+      background-color: yellow; 
+      padding: 20px 50px;
+      position: relative;
+      width: 400px;
+      overflow: hidden;
+      display: flex;
+     color: rgb(18, 17, 17);
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+    
+}
+
+ .logo2_Update img{
+        height: 70px;
+        width: 70px;
+    }
+
+    .logo2_Update h3{
+        font-size: 20px;
+    }
+
+
+.footer_download{
+    display: flex;justify-content: space-between;
+    padding: 30px 30px;
+    
+}
+.download h1{
+    color: white;
+    border-bottom: #ffeb00 solid 3px;
+    
+    width: 260px;
+    height: 40px;
+}
+
+.download p{
+    color: white;
+    margin-top: 50px;
+}
+
+.image_download{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.google{
+    width: 150px;
+}
+.store{
+    width: 130px;
+}
+
+
+.download_about{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.download h3{
+    color: white;
+}
+
+
+.download_Book {
+    border: white solid 2px;
+      padding: 25px 20px;
+      position: relative;
+      width: 300px;
+      overflow: hidden;
+      display: flex;
+     color: black;
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+}
+
+
+.download_Boo {
+    margin-top: 50px;
+      background-color: yellow; 
+      padding: 25px 20px;
+      position: relative;
+      width: 250px;
+      overflow: hidden;
+      display: flex;
+     color: black;
+      justify-content: space-between;
+      align-items: center;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+}
+    
+
+.download_Book_strip {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 15px;
+      height: 100%;
+      background-color:rgb(14, 14, 13);
+      transform: skewX(-10deg);
+}
+
+.download_Boo a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+
+
+
+
+
+.download_Boo:hover{
+        border: yellow solid 3px;
+        background: black;
+        color: #eae4e4;
+    }
+
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+    .logo2{
+       flex-wrap: wrap;
+       height: fit-content;
+        gap: 50px;
+        justify-content: space-between;
+
+    }
+    .footer_download{
+       flex-wrap: wrap;
+       justify-content: space-between;
+        /* margin-top: 180px; */
+        gap: 50px;
+    }
+
+    .image_footer{
+        height: fit-content;
+    }
+    .logo2_Update {
+      background-color: yellow; 
+      padding: 10px 30px;
+      position: relative;
+      width: 300px;
+      overflow: hidden;
+      display: flex;
+      font-size: 10px;
+     color: rgb(18, 17, 17);
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+      transition: 0.3s ease-in-out;
+    
+   }
+    .logo2_Update img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo2_Update h3{
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width : 768px) and  (max-width: 1024px){
+     .logo2{
+        padding: 60px;
+       flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
+
+    }
+    .footer_download{
+        padding: 90px;
+       flex-wrap: wrap;
+       justify-content: space-between;
+        margin-top: 18px;
+        gap: 30px;
+    }
+}
