@@ -201,6 +201,10 @@ nav{
     margin-left: 120px;
    }
 
+   .icons8-search-50{
+    display: none;
+   }
+
    .icons_png{
     display: none; 
     background: #000;

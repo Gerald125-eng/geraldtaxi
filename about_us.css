@@ -728,7 +728,7 @@ nav{
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){
-    .LATEST_SERVICE{
+    .LATEST_SERVICE{    
         width: 100%;
         height: 50%;
     }
@@ -854,6 +854,7 @@ nav{
     .Order{
         width: 100%;
         height: fit-content;
+       
     }
     .Taxi_Online{
         width: 100%;
@@ -1005,6 +1006,7 @@ nav{
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){
+   
     .diagonal_text_test_container{
         display: none;
     }
@@ -1012,7 +1014,7 @@ nav{
         width: 80%;
         height: 60%;
         background:white;
-        box-shadow: 1px -1px -1px -1px black;
+        /* box-shadow: 1px -1px -1px -1px black; */
         color: #000;
         position: absolute;
         top: 200px;
@@ -1024,7 +1026,7 @@ nav{
     }
     .client_container p{
         font-size: 10px;
-        margin-top: 300px;
+        margin-top: 250px;
     }
     .client_container h1{
         font-size: 15px;
@@ -1034,8 +1036,8 @@ nav{
     }
 
         .diagonal_Testimonials_img {
-        width: 300px;
-        height: 40vh;
+        width: 200px;
+        height: 35vh;
         background-image: url(./Image/features1-1.jpg);
         transform: rotate(0deg);
         position: relative;
@@ -1043,8 +1045,14 @@ nav{
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         position: absolute;
         top: 200px;
-        left: 46px;
+        left: 55px;
     }
+    .profile_client{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 }
 
 
@@ -1488,6 +1496,7 @@ nav{
     .Online_Store{
         width: 100%;
         height: fit-content;
+        display: none;
     }
     .div_online{
         display: none;

@@ -287,6 +287,10 @@ nav{
     color: white;
 }
 
+.text_image_container h1{
+    color: white;
+}
+
 
 @media (min-width : 320px) and  (max-width: 1024px){
     .image_container img{
@@ -300,12 +304,13 @@ nav{
         height: fit-content;
          position: relative;
     }
-    .text_image_container h1{
-    position: absolute;
-    top: -250px;
-    left: -340px;
+   .text_image_container{
+    left: 80px;
+    top: 150px;
+   }
+
+   .text_image_container h1{
     font-size: 30px;
-    color: white;
    }
 }
 
