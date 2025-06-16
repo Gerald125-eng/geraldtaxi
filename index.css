@@ -454,6 +454,7 @@ nav{
     margin-left: 70px;
     gap: 100px;
 }
+
 .diagonal-bar {
       width: 150px;
       height: 130vh;
@@ -465,6 +466,7 @@ nav{
 
       
 }
+
 .confirm_booking{
     color: white;
 }
@@ -472,9 +474,11 @@ nav{
     position: absolute;
     top: 350px;
 }
+
 .car_diagonal img{
     width: 30%;
 }
+
 .input{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -484,9 +488,11 @@ nav{
     padding: 15px 30px;
     color: white;
 }
+
 #More{
     color: #000;
 }
+
 .confirm_booking h1{
     font-size: 50px;
     background-position: -800px 0;
@@ -497,6 +503,7 @@ nav{
     background-repeat: no-repeat;
     -webkit-background-clip: text;
 }
+
 @keyframes back{
     100%{
         background-position: 0 0;
@@ -506,6 +513,8 @@ nav{
     font-size: 20px;
     color: yellow;
 }
+
+
 .Book_Discover_text {
         background-color: #ffeb00; 
         padding: 18px 20px;
@@ -518,6 +527,8 @@ nav{
         clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
         transition: 0.3s ease-in-out;
 }
+    
+
 .Book_stripe_Discover_texr {
         position: absolute;
         top: 0;
@@ -526,6 +537,9 @@ nav{
         height: 100%;
         background-color:black;
 }
+
+
+
 .Book_Discover_text a{
         text-decoration: none;
         font-size: 18px;
@@ -536,6 +550,8 @@ nav{
         background: black;
         color: #eae4e4;
     }
+
+
 
 @media (min-width : 320px) and  (max-width: 1024px){
     .car_diagonal{
@@ -644,104 +660,6 @@ nav{
             width: 15px;
             height: 100%;
             background-color:black;
-    }
-}
-
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .discover_car{
-    width: 90%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background: #000;
-    margin-left: 70px;
-    gap: 190px;
-    }
-
-    .diagonal-bar {
-      width: 150px;
-      height: 96vh;
-      background-color: yellow;
-      transform: rotate(11deg);
-      position: relative;
-      margin-left: 65px;
-      clip-path: polygon(0% 5%, 100% 0%, 95% 95%, 0% 100%);
-
-      
-}
-.confirm_booking{
-    color: white;
-}
-.car_diagonal img{
-    position: absolute;
-    top: 350px;
-}
-.car_diagonal img{
-    width: 25%;
-}
-.input{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-}
-.input input{
-    padding: 15px 30px;
-    color: white;
-}
-#More{
-    color: #000;
-}
-.confirm_booking h1{
-    font-size: 50px;
-    background-position: -800px 0;
-    animation: back 7s linear infinite alternate;
-    -webkit-text-stroke: 1px #f1ecec;
-    color: transparent;
-    background-image: linear-gradient(#fff);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-}
-@keyframes back{
-    100%{
-        background-position: 0 0;
-    }
-}
-.confirm_booking h3{
-    font-size: 20px;
-    color: yellow;
-}
-.Book_Discover_text {
-        background-color: #ffeb00; 
-        padding: 18px 20px;
-        position: relative;
-        width: 250px;
-        overflow: hidden;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
-        transition: 0.3s ease-in-out;
-}
-.Book_stripe_Discover_texr {
-        position: absolute;
-        top: 0;
-        right: 20px;
-        width: 15px;
-        height: 100%;
-        background-color:black;
-}
-.Book_Discover_text a{
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-    }
-    .Book_Discover_text:hover{
-        border: yellow solid 3px;
-        background: black;
-        color: #eae4e4;
     }
 }
 /* discover_car end here */
@@ -988,21 +906,6 @@ nav{
     width: 20px;
     }
 }
-
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .welcome_to_company{
-    width: 100%;
-    height: 130vh;
-    justify-content: center;
-    display: flex;
-    padding: 0;
-    gap: 150px;
-    align-items: center;
-    position: relative;
-    animation: blink 3s linear infinite alternate;
-}
-}
 /* welcome_to_company end here */
 
 
@@ -1033,7 +936,7 @@ nav{
 .latet_text h1{
    font-size: 60px;
    background-position: -1000px 0;
-    color: #000;
+    
 }
 
 
@@ -1222,24 +1125,6 @@ nav{
         height: 80vh;
         padding: 30px;
     }
-}
-
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .business{
-    display: flex;
-    justify-content: center;
-     overflow: auto;
-    padding: 50px 50px;
-    margin-top: 50px;
-    }
-
-    .latest{
-    height: 120vh;
-    width: 100%;
-    background: rgb(175, 174, 174);
-    margin-top: 80px;
-}
 }
 /* latest end here */
 
@@ -1525,12 +1410,6 @@ nav{
 
 
 }
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .your_ride{
-        margin-bottom: 0;
-    }
-}
 /* your_ride end here */
 
 
@@ -1677,33 +1556,6 @@ nav{
     }
     .antora_text h3{
         font-size: 18px;
-    }
-}
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .cityCar{
-    width: 100%;
-    height: 120vh;
-    margin-top: -500px;
-    background-image: url(./Image/bg-testi1.png);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    }
-
-    .polygon{
-        top: 0;
-    }
-    .diagonal- {
-      width: 300px;
-      height: 99vh;
-      background-color: yellow;
-      transform: rotate(10deg);
-      position: relative;
-      margin-left: 100px;
-      clip-path: polygon(0% 10%, 100% 0%, 95% 95%, 0% 100%);
     }
 }
 /* cityCar end here */
@@ -1917,39 +1769,8 @@ nav{
 }
 
 
-@media (min-width : 1024px) and  (max-width: 1366px){
-   .question{
-    margin-top: -200px;
-     justify-content: center;
-   }
-   .polygon_tour_taxi{
-    width: 150px;
-    height: 400px;
-    background: #000;
-    background-position: center;
-    clip-path: polygon(0% 5%, 80% 0%, 80% 73%, 0% 80%);
-    transition: 0.3s ease-in-out;
-    top: -11px;
-    left: 600px;
-    position: absolute;
-    transform: rotate(11deg);
-    }
-
-   .diagonal-bar_3 {
-      width: 250px;
-      height: 100vh;
-      transform: rotate(13deg);
-     
-      
-}
-
-.diagonal-bar_4 {
-      width: 180px;
-      height: 100vh;
-      transform: rotate(13deg);
-      
-      
-}
+@media (min-width : 768px) and  (max-width: 1024px){
+   
 }
 /* question end here*/
 
@@ -2194,18 +2015,6 @@ nav{
    }
    
 }
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .trustedcab{
-    width: 80%;
-    height: 60vh;
-    background: yellow;
-    position: absolute;
-    top: 400px;
-    /* position: relative; */
-    left: 110px;
-    }
-}
 /* see_our end here */
 
 
@@ -2301,10 +2110,10 @@ nav{
 }
 
 .text_news h5{
-   font-size: 40px;
+   font-size: 20px;
 }
-.text_news h2{
-   font-size: 30px;
+.text_news h1{
+   font-size: 50px;
 }
 .image_text_new{
     display: flex;
@@ -2416,17 +2225,6 @@ nav{
         align-items: center;
         gap: 30px;
         
-    }
-}
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .news_container{
-        width: 100%;
-        height: fit-content;
-        margin-top: -400px;
-    }
-    .text_news h1{
-        font-size: 90px;
     }
 }
 /* news_container end here*/ 
@@ -2646,13 +2444,4 @@ nav{
         margin-top: 18px;
         gap: 30px;
     }
-}
-
-@media (min-width : 1024px) and  (max-width: 1366px){
-    .image_footer{
-    background-image: url(./Image/pattern-4.jpg);
-    width: 100%;
-    height: fit-content;
-    
-}
 }
