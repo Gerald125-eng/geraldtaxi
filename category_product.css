@@ -396,7 +396,7 @@ nav{
 
 .category_section{
     width: 100%;
-    height: 200vh;
+    height: fit-content;
     padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -466,7 +466,7 @@ nav{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     
 }
 

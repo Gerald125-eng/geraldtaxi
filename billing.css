@@ -365,7 +365,7 @@ nav{
 
 .billing_content{
     width: 100%;
-    height: 130vh;
+    height: fit-content;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -802,7 +802,7 @@ td{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     
 }
 

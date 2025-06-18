@@ -378,10 +378,10 @@ nav{
 /* Services */
 .section_Services{
     width: 100%;
-    height: 200vh;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 30px 30px;
     gap: 20px;
     align-items: center;
@@ -568,7 +568,7 @@ nav{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     margin-top: 50px;
     
 }

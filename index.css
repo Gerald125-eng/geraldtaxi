@@ -219,6 +219,7 @@ nav{
     top: 50px;
     width: 200px;
     height: 350px;
+    z-index: 999;
     background: black;
     /* text-align: center; */
     transition: 1.5s;
@@ -286,13 +287,13 @@ nav{
 }
 .text_background{
     position: absolute;
-    top: 300px;
-    left: 50px;
+    top: 15rem;
+    left: 5rem;
     
 }
 
 .text_background h1{
-    font-size: 80px;
+    font-size: 5rem;
     color: white;
    
 }
@@ -441,27 +442,36 @@ nav{
 
 
 
+
+
+
 /* discover_car */
+.device_width{
+    display: flex;
+    justify-content: center;
+}
 
 .discover_car{
     width: 90%;
-    height: 119vh;
+    height: 90vh;
+    max-width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6rem;
     position: relative;
     background: #000;
-    margin-left: 70px;
-    gap: 100px;
+    /* margin-left: 6rem; */
+   
 }
 
 .diagonal-bar {
-      width: 150px;
-      height: 130vh;
+      width: 10rem;
+      height: 90vh;
+      margin-left: 1.5rem;
       background-color: yellow;
-      transform: rotate(15deg);
+      transform: rotate(13deg);
       position: relative;
-      margin-left: 100px;
       clip-path: polygon(0% 5%, 100% 0%, 95% 95%, 0% 100%);
 
       
@@ -472,20 +482,24 @@ nav{
 }
 .car_diagonal img{
     position: absolute;
-    top: 350px;
+    top: 16rem;
+    left: 0;
 }
 
 .car_diagonal img{
     width: 30%;
+    max-width: 100%;
+    height: auto;
 }
 
 .input{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 2rem;
 }
 .input input{
-    padding: 15px 30px;
+    width: 100%;
+    padding: 0.75rem;
     color: white;
 }
 
@@ -667,14 +681,17 @@ nav{
 
 
 
+
+
 /* welcome_to_company */
 
 .welcome_to_company{
     width: 100%;
-    height: 130vh;
-    justify-content: space-between;
+    height: fit-content;
+    justify-content: center;
     display: flex;
-    padding: 90px 90px;
+    gap: 10rem;
+    padding: 10rem;
     align-items: center;
     position: relative;
     animation: blink 3s linear infinite alternate;
@@ -686,68 +703,68 @@ nav{
 }
 
 .welcome_to_company_text_area{
-    margin-top: 80px;
+    margin-top: 5rem;
     animation-delay: 0.5s ;
 }
 
 .welcome_to_company_text_area h5{
-    font-size: 30px;
+    font-size: 2rem;
     animation-delay: 0.5s ;
 }
 
 .welcome_to_company_text_area h1{
-    font-size: 50px;
+    font-size: 2rem;
     
 }
 
 .welcome_to_company_text_area p{
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .image_1{
-    width: 350px;
+    width: 17rem;
     position: absolute;
-    top: 110px;
+    top: 8rem;
     left: 13px;
 }
 .image_2{
-    width: 190px;
+    width: 13rem;
     position: absolute;
-    top: 400px;
+    top: 20rem;
     left: 250px;
 }
 .image_3{
-    width: 200px;
+    width: 13rem;
     position: absolute;
-    top: 130px;
-    left: 280px;
+    top: 4rem;
+    left: 15rem;
 }
 
 
 .diagonal {
-      width: 250px;
-      height: 100vh;
+      width: 15rem;
+      height: 80vh;
       background-color: yellow;
       transform: rotate(10deg);
       position: relative;
-      margin-top: 30px;
-      margin-left: 100px;
+      margin-top: 2rem;
+      margin-left: 8rem;
       clip-path: polygon(0% 5%, 100% 0%, 95% 95%, 0% 100%);
 }
 
 .online{
     display: flex;
-    gap: 20px;
+    gap: 2rem;
      /* justify-content: center; */
     align-items: center; 
 }
 .online img{
-   width: 30px;
+   width: 2rem;
 }
 
 .our_portfolio{
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     animation-delay: 5.5s ;
 }
 
@@ -759,16 +776,16 @@ nav{
 
 .book_taxi_area{
     display: flex;
-    gap: 30px;
+    gap: 2rem;
     justify-content: space-between;
 }
 .book_took_img img{
-    width: 200px;
+    width: 9rem;
 }
 
-.More{
+/* .More{
     padding: 10px 20px;
-}
+} */
 
 
 
@@ -833,7 +850,10 @@ nav{
         width: 300px;
         position: absolute;
         top: 500px;
-        left: 13px;
+        left: 5rem;
+    }
+    .welcome_to_company_text_area{
+        margin-right: 4rem;
     }
 
     .welcome_to_company_text_area h5{
@@ -863,7 +883,7 @@ nav{
       align-items: center;
       clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
       transition: 0.3s ease-in-out;
-}
+    }
     
 
     .Book_strip {
@@ -913,12 +933,17 @@ nav{
 
 
 /* latest */
+.latest_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .latest{
-    height: 150vh;
+    height: fit-content;
     width: 100%;
-    background: rgb(175, 174, 174);
-    margin-top: 80px;
+    background: rgb(233, 233, 233);
+    margin-top: 5rem;
 }
 
 .latet_text{
@@ -934,16 +959,16 @@ nav{
 }
 
 .latet_text h1{
-   font-size: 60px;
+   font-size: 3rem;
    background-position: -1000px 0;
     
 }
 
 
 .image_area img{
-    height: 280px;
-    width: 400px;
-        clip-path: polygon(10% 13%, 100% 0%, 90% 100%, 0% 100%);
+    height: 17.5rem;
+    width: 24rem;
+        clip-path: polygon(10% 13%, 100% 6%, 90% 90%, 0% 100%);
         transform: rotate(-5deg);
         position: relative;
 }
@@ -962,14 +987,19 @@ nav{
 
 .business{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   overflow: auto;
-    padding: 30px 30px;
-    margin-top: 50px;
+    padding: 0 5rem 0 8rem;
+    /* margin-top: 50px; */
+    padding-bottom: 5rem;
+}
+
+.business::-webkit-scrollbar{
+    display: none;
 }
 
 .slanted-container {
-    width: 300px;
+    width: 18rem;
     height: 20px;
     background-size: cover;
     background: #000;
@@ -977,43 +1007,41 @@ nav{
     clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
     transition: 0.3s ease-in-out;
     position: absolute;
-     transform: rotate(-5deg);
+     transform: rotate(-9.5deg);
      position: absolute;
-     top: 280px;
+     top: 16.8rem;
      left: 30px;
 }
 
 
 
 .slanted-container2 {
-    width: 300px;
+    width: 18rem;
     height: 20px;
     background-size: cover;
     background: #000;
     background-position: center;
     clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
     transition: 0.3s ease-in-out;
-    position: absolute;
-     transform: rotate(-5deg);
+    transform: rotate(-9.5deg);
      position: absolute;
-     top: 280px;
+     top: 16.8rem;
      left: 30px;
 }
 
 
 
 .slanted-container3 {
-    width: 300px;
+   width: 18rem;
     height: 20px;
     background-size: cover;
     background: #000;
     background-position: center;
     clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
     transition: 0.3s ease-in-out;
-    position: absolute;
-     transform: rotate(-5deg);
+    transform: rotate(-9.5deg);
      position: absolute;
-     top: 280px;
+     top: 16.8rem;
      left: 30px;
 }
 
@@ -1139,7 +1167,7 @@ nav{
 
 .your_ride{
     width: 100%;
-    height: 200vh;
+    height: fit-content;
     margin-top: 150px;
    
 }
@@ -1414,17 +1442,19 @@ nav{
 
 
 
+
+
 /* cityCar */
 
 .cityCar{
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     background-image: url(./Image/bg-testi1.png);
     object-fit: cover;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .image_container{
@@ -1432,62 +1462,62 @@ nav{
 }
 
 .polygon{
-    width: 80px;
-    height: 200px;
+    width: 8rem;
+    height: 15rem;
     background: #000;
     background-position: center;
     clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
     transition: 0.3s ease-in-out;
     position: absolute;
-    top: 180px;
+    top: 10rem;
 }
 
 
 .diagonal- {
-      width: 300px;
-      height: 102vh;
+      width: 16rem;
+      height: 80vh;
       background-color: yellow;
       transform: rotate(10deg);
       position: relative;
-      margin-left: 100px;
+      margin-left: 10rem;
       clip-path: polygon(0% 10%, 100% 0%, 95% 95%, 0% 100%);
 
       
 }
 
 .polygon_man img{
-    width: 500px;
-    height: 600px;
+    width: 32rem;
+    height: 38rem;
     position: absolute;
-    top: 100px;
+    top: 3rem;
 }
 .passenger{
     /* margin-left: 100px; */
-    padding: 20px 80px;
+    padding: 5rem 8rem;
 }
 
 .passenger h1{
-    font-size: 50px;
-    margin-top: 150px;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 .reviwe p{
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .review_lorem{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
-   height: 200px;
+    margin-top: 4rem;
+   height: 16rem;
     border-bottom: black solid 1px;
    
 }
 
 .review_lorem div{
-    width: 5px;
-    height: 150px;
+    width: 0.5rem;
+    height: 16rem;
     background: yellow;
 }
 
@@ -1495,8 +1525,8 @@ nav{
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    gap: 80px;
-    margin-top: 50px;
+    gap: 5rem;
+    margin-top: 3rem;
 }
 .antora img{
     width: 80px;
@@ -1514,9 +1544,12 @@ nav{
     .image_container{
         display: none;
     }
+    .passenger{
+        padding: 0;
+    }
 
     .passenger h1{
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: 50px;
    }
 
@@ -1525,13 +1558,13 @@ nav{
     }
 
     .review_lorem{
-        flex-direction: row;
-    gap: 30px;
+    flex-direction: row;
+    gap: 1rem;
     margin-top: 20px;
     }
     
     .antora{
-        gap: 20px;
+        gap: 10px;
     }
     .antora_text h2{
         font-size: 18px;
@@ -1569,22 +1602,21 @@ nav{
 
 .question{
     width: 100%;
-    height: 105vh;
-    justify-content: space-evenly;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 
 .frequently{ 
-    position: absolute;
-    top: 130px;
-    left: 50px;
+   margin-top: 2rem;
 }
 .frequently h5{
-    font-size: 20px;
+    font-size: 1rem;
     /* margin-top: 100pxw; */
 }
 .frequently h1{
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .cap{
@@ -1592,102 +1624,99 @@ nav{
     gap: 50px;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 50px;
+    width: 28rem;
+     height: 4rem;
     border-bottom:  1px solid black;
 }
 
 .cap img{
-    width: 30px;
+    width: 2rem;
 }
 
 .cap p{
-   font-size: 20px;
+   font-size: 1.2rem;
 }
 
 .capp{
     display: flex;
-    gap: 30px;
-    font-size: 20px;
+   gap: 2rem;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 50px;
+    width: 20rem;
+     height: 4rem;
     border-bottom:  1px solid black;
 }
 .capp img{
-    width: 30px;
+    width: 2rem;
 }
 
 .cappp{
     display: flex;
-    gap: 30px;
-    font-size: 20px;
+    gap: 2rem;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
-    width: 290px;
-    height: 50px;
+    width: 18rem;
+    height: 4rem;
     border-bottom:  1px solid black;
 }
 .cappp img{
-    width: 30px;
+    width: 2rem;
 }
 
 
 .capppp{
     display: flex;
-    gap: 30px;
-    font-size: 20px;
+    gap: 2rem;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
     width: 390px;
-    height: 50px;
+    height: 4rem;
     border-bottom:  1px solid black;
 }
 .capppp img{
-    width: 30px;
+    width: 2rem;
 }
 
-
+.tour_taxi{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .polygon_tour_taxi{
-    width: 150px;
-    height: 400px;
+    width: 10rem;
+    height: 29rem;
     background: #000;
     background-position: center;
     clip-path: polygon(0% 5%, 80% 0%, 80% 73%, 0% 80%);
     transition: 0.3s ease-in-out;
-    top: -11px;
-    left: 600px;
-    position: absolute;
     transform: rotate(9deg);
 }
 
 
 .diagonal-bar_3 {
-      width: 250px;
-      height: 100vh;
-      transform: rotate(15deg);
+      width: 10rem;
+      height: 80vh;
       background-image: url(./Image/news5-1.jpg);
-      position: absolute;
-      top: -24px;
+      margin-top: -2rem;
       clip-path: polygon(0% 7%, 100% 0%, 95% 95%, 0% 100%);
-     transform: rotate(9deg);
-     left: 720px;
+     transform: rotate(14deg);
+    
       
 }
 
 .diagonal-bar_4 {
-      width: 180px;
-      height: 100vh;
+      width: 10rem;
+      height: 80vh;
       transform: rotate(19deg);
-      /* background-image: url(./Image/news5-1.jpg); */
-      background: yellow;
-      position: absolute;
-      top: -20px;
+     background: yellow;
+      margin-top: -2rem;
       clip-path: polygon(0% 5.5%, 100% 0%, 95% 95%, 0% 100%);
-     transform: rotate(10deg);
-     left: 1000px;
+     transform: rotate(13deg);
+    
       
 }
 
@@ -1704,11 +1733,13 @@ nav{
 
    .question{
     height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
    }
     
    .cap{
     display: flex;
-    gap: 50px;
+    gap: 6rem;
     justify-content: center;
     align-items: center;
     width: 300px;
@@ -1726,12 +1757,12 @@ nav{
 
     .capp{
         display: flex;
-        gap: 30px;
+        gap: 5rem;
         font-size: 10px;
         justify-content: center;
         align-items: center;
-        width: 300px;
-        height: 50px;
+        width: 15rem;
+        height: 3rem;
         border-bottom:  1px solid black;
     }
     .capp img{
@@ -1740,12 +1771,12 @@ nav{
 
     .cappp{
         display: flex;
-        gap: 30px;
+        gap: 5rem;
         font-size: 10px;
         justify-content: center;
         align-items: center;
-        width: 290px;
-        height: 50px;
+        width: 14rem;
+        height: 3rem;
         border-bottom:  1px solid black;
     }
     .cappp img{
@@ -1755,12 +1786,12 @@ nav{
 
     .capppp{
         display: flex;
-        gap: 30px;
+        gap: 5rem;
         font-size: 10px;
         justify-content: center;
         align-items: center;
-        width: 300px;
-        height: 50px;
+         width: 18rem;
+        height: 3rem;
         border-bottom:  1px solid black;
     }
     .capppp img{
@@ -1783,62 +1814,62 @@ nav{
 /* see_our */
 
 .gen_see_our{
-    height: 180vh;
+     width: 100%;
+    height: 130vh;
     position: relative;
 }
 
 .see_our{
+    display: flex;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: #000;
-    /* position: absolute; */
-    left: 150px;
-    /* position: relative; */
+    justify-content: center;
+    text-align: center;
 }
 
 .see_our img{
-    position: absolute;
-    left: 550px;
-    top: 80px;
+    margin-top: 1rem;
+    width: 8rem;
 }
 
 .see_text h1{
     color: white;
-     left: 380px;
-     top: 260px;
-     position: absolute;
-     text-align: center;
-     font-size: 40px;
+   font-size: 2rem;
 }
 
 
 .trustedcab{
-    width: 80%;
-    height: 80vh;
+    width: fit-content;
+  padding: 3rem ;
+    height: 70vh;
     background: yellow;
     position: absolute;
-    top: 400px;
-    /* position: relative; */
-    left: 110px;
+    top: 15rem;
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    
+    
 }
 
 .trust{
-    margin-left: 50px;
-    margin-top: 100px;
+   margin-top: 3rem;
 }
 
 .trust h2{
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 .trust h6{
-    font-size: 20px;
+   font-size: 1.5rem;
 }
 
 .Boo {
       background-color: #0c0c0b; 
-      padding: 25px 20px;
+      padding: 1rem 4rem;
+      margin-left: 5rem;
       position: relative;
-      width: 250px;
+      width: 15rem;
       overflow: hidden;
       display: flex;
      color: white;
@@ -1852,45 +1883,50 @@ nav{
 .Book_strip {
       position: absolute;
       top: 0;
-      right: 20px;
-      width: 15px;
+      right: 2rem;
+      width: 1rem;
       height: 100%;
       background-color:yellow;
       transform: skewX(-10deg);
 }
 
+.polygon_tour_divs{
+    display: flex;
+    justify-content: center;
+  margin-top: 6em;
+}
+
 
 .polygon_tour_{
-    width: 130px;
-    height: 350px;
+    width: 6rem;
+    height:10rem;
     background:white;
     background-position: center;
     clip-path: polygon(0% 10%, 80% 5%, 80% 65%, 0% 80%);
     transition: 0.3s ease-in-out;
-    top: -26px;
-    left: 600px;
-    position: absolute;
     transform: rotate(10deg);
 }
 .polygon_trusted{
-    width: 250px;
-    height: 661px;
+    width: 16rem;
+    height: 25rem;
     background:rgb(11, 10, 10);
     background-position: center;
     clip-path: polygon(0% 8%, 80% 3%, 80% 75%, 0% 80%);
     transition: 0.3s ease-in-out;
-    top: -38px;
-    left: 700px;
-    position: absolute;
     transform: rotate(9deg);
 }
 
 .img_trusted img{
-    height: 550px;
-    width: 400px;
+    height: 20rem;
+    width: 16rem;
     position: absolute;
-    top: -80px;
-    left: 620px;
+    top: 2rem;
+    right: 5rem;
+}
+.image_trusted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){
@@ -1924,6 +1960,8 @@ nav{
     left: 40px;
    }
 
+   
+
    .see_text h1{
     color: white;
      left: 30px;
@@ -1938,9 +1976,9 @@ nav{
 
    .Boo {
       background-color: #0c0c0b; 
-      padding: 20px 20px;
+      padding: 0.9rem 2rem;
       position: relative;
-      width: 180px;
+      width: 10rem;
       overflow: hidden;
       display: flex;
       font-size: 15px;
@@ -1949,14 +1987,15 @@ nav{
       align-items: center;
       clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
       transition: 0.3s ease-in-out;
+      margin-left: 0;
    }
     
 
    .Book_strip {
       position: absolute;
       top: 0;
-      right: 20px;
-      width: 15px;
+      right: 0.9rem;
+      width: 0.5rem;
       height: 100%;
       background-color:yellow;
       transform: skewX(-10deg);
@@ -1973,7 +2012,14 @@ nav{
 
    .trust{
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 0;
+   }
+
+   .trust h2{
+    font-size: 1rem;
+   }
+   .trust h6{
+    font-size: 2rem;
    }
 }
 
@@ -2032,7 +2078,9 @@ nav{
 
 .news_container{
     width: 98%;
-    height: 140vh;
+    height: fit-content;
+    /* margin-top: 5rem; */
+    
 }
 
 .text_news{
@@ -2041,10 +2089,10 @@ nav{
 
 .image_news{
     display: flex;
-     align-items: center;
     overflow-x: auto;
-    justify-content: space-between;
-    padding: 30px 30px;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem;
 }
 
 .image_news::-webkit-scrollbar{
@@ -2052,10 +2100,10 @@ nav{
 }
 
 .img_news{
-    width: 371px;
-    height: 267px;
+    width: 22rem;
+    height: 16rem;
     overflow: hidden;
-    box-shadow: -1px 5px 15px;
+    box-shadow: -1rem 2rem 5rem;
     position: relative;
 }
 
@@ -2079,7 +2127,7 @@ nav{
 }
 .Update {
       background-color: yellow; 
-      padding: 25px 20px;
+      padding: 1rem 5rem;
       position: relative;
       width: 250px;
       overflow: hidden;
@@ -2090,39 +2138,39 @@ nav{
       clip-path: polygon(8% 0%, 100% 0%, 95% 100%, 0% 100%);
       transition: 0.3s ease-in-out;
       position: absolute;
-      top: 240px;
-      left: 50px;
+      top: 14rem;
+      left: 3rem;
 }
     
 
 .Book_Update {
       position: absolute;
       top: 0;
-      right: 20px;
-      width: 15px;
+      right: 2rem;
+      width: 1rem;
       height: 100%;
       background-color:rgb(237, 237, 231);
       transform: skewX(-10deg);
 }
 
 .text_new_{
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .text_news h5{
-   font-size: 20px;
+   font-size: 2rem;
 }
 .text_news h1{
-   font-size: 50px;
+   font-size: 4rem;
 }
 .image_text_new{
     display: flex;
-    gap: 30px;
+    gap: 4rem;
     align-items: center;
 }
 
 .image_text_new img{
-    width: 50px;
+    width: 4rem;
 } 
 
 
@@ -2226,6 +2274,15 @@ nav{
         gap: 30px;
         
     }
+    .image_text_new img{
+    width: 2.5rem;
+    }
+
+    .image_text_new{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    } 
 }
 /* news_container end here*/ 
 
@@ -2240,7 +2297,7 @@ nav{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height:fit-content;
     
 }
 

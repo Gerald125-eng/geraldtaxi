@@ -338,7 +338,7 @@ nav{
 /* News_Details */
 .News_Details{
     width: 100%;
-    height: 150vh;
+    height: fit-content;
     margin-top: 50px;
     text-align: center;
    
@@ -391,8 +391,9 @@ nav{
 
 .Details{
     width: 100%;
+    padding: 5rem;
     display: flex;
-    gap: 50px;
+    gap: 2rem;
     justify-content: center;
     margin-top: 90px;
 }
@@ -447,29 +448,30 @@ nav{
 }
 
 .Aadmin{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 5rem;
 }
 
 .Admin_icon_image{
     display: flex;
-    gap: 30px;
+    gap: 1rem;
     align-items: center;
 }
 
 .Admin_icon_image img{
-    width: 40px;
+    width: 3rem;
 }
 
 .admin_icon_area{
     display: flex;
-    gap: 50px;
-    margin-left: 50px;
+    gap: 5rem;
     margin-top: 30px;
 }
 .admin_icon_area h3{
    color: #5c5959;
-   font-size: 20px;
+   font-size: 1.2rem;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){
@@ -657,13 +659,14 @@ nav{
 
 .Admin{
     width: 100%;
-    height: 90vh;
+    height: fit-content;
+    padding: 5rem;
 }
 
 .admin_Admin{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 3rem;
     margin-top: 50px;
 }
 
@@ -684,6 +687,7 @@ nav{
     .Admin{
         width: 100%;
         height: fit-content;
+        padding: 0;
     }
 
     .admin_Admin{
@@ -723,7 +727,7 @@ nav{
 
 .Tags{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 .Tags_text{
@@ -767,7 +771,7 @@ nav{
 .container{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 2rem;
 }
 
 .container_di{
@@ -819,8 +823,13 @@ nav{
 }
 ._Comments{
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+    justify-content:center;
     align-items: center;
+}
+
+.Comments h1{
+    text-align: center;
 }
 
 .image_text_area{
@@ -979,7 +988,7 @@ nav{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     
 }
 

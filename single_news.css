@@ -388,9 +388,8 @@ nav{
 
 .single_news{
     width: 100%;
-    height: 100vh;
-    padding: 50px 50px;
-    margin-top: 30px;
+    height: fit-content;
+   padding: 5rem;
 }
 
 
@@ -468,21 +467,21 @@ nav{
 
 ._Comments{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
     align-items: center;
 }
 
 .image_text_area{
     display: flex;
     align-items: center;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 2rem;
 }
 
 .Comments{
-    height: 50vh;
+    width: 100%;
+    height: fit-content;
    padding: 50px 50px;
-   margin-top: 130px;
 }
 
 .Comments a h1{
@@ -563,7 +562,7 @@ nav{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     
 }
 

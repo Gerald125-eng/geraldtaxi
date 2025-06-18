@@ -380,19 +380,22 @@ nav{
 
 .Choose_Method{
     width: 100%;
-    height: 100vh;
-    margin-top: 100px;
+    height: fit-content;
+   padding: 5rem;
     
 }
 
 .Choose_Method h1{
     text-align: center;
     font-size: 50px;
+
 }
 
 .Postal{
-    margin-left: 300px;
-    margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 5rem;
 }
 
 .firt_name{
@@ -593,7 +596,7 @@ nav{
 .image_footer{
     background-image: url(./Image/pattern-4.jpg);
     width: 100%;
-    height: 120vh;
+    height: fit-content;
     
 }
 
