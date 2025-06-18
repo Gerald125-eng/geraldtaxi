@@ -242,18 +242,20 @@ nav{
     }
 
     .nav_link_second{
-    display: block;
+    display: none;
     position: absolute;
     top: 50px;
     width: 400px;
     height: 550px;
     background: black;
+    z-index: 99;
     /* text-align: center; */
     transition: 1.5s;
    }
 
    .nav_link_second a{
        text-decoration: none;
+       
         color: white;
         font-size: 25px;
         margin-left: 150px;
@@ -499,7 +501,9 @@ nav{
        flex-wrap: wrap;
         height: fit-content;
         justify-content: center;
+        align-items: center;
         margin-left: -10px;
+        padding: 0;
     }
 
     .Services{
@@ -549,8 +553,8 @@ nav{
     .Services_content_image_icon img{
     width: 90px;
     height: 100px;
-    background: yellow;
-    border: #ffeb00 solid 3px;
+    background: rgb(138, 138, 135);
+    border:white solid 3px;
     position: absolute;
     top: 160px;
     left: 200px;

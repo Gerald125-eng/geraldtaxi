@@ -246,7 +246,7 @@ nav{
     }
 
     .nav_link_second{
-    display: block;
+   display: none;
     position: absolute;
     top: 50px;
     width: 400px;
