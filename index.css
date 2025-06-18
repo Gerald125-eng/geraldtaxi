@@ -232,8 +232,15 @@ nav{
         margin-left: 50px;
 
    }
+   
 
 }
+
+
+
+
+
+
 
 @media (min-width : 768px) and  (max-width: 1024px){
     .cart_search{
@@ -241,7 +248,7 @@ nav{
     }
 
     .nav_link_second{
-    display: block;
+    display: none;
     position: absolute;
     top: 50px;
     width: 400px;
@@ -393,9 +400,9 @@ nav{
     
     .Book_Discover {
         background-color: #ffeb00; 
-        padding: 18px 20px;
+        padding: 1rem 2rem;
         position: relative;
-        width: 250px;
+        width: 150px;
         overflow: hidden;
         display: flex;
         justify-content: space-between;
@@ -409,9 +416,15 @@ nav{
         position: absolute;
         top: 0;
         right: 20px;
-        width: 15px;
+        width: 8px;
         height: 100%;
         background-color:black;
+    }
+
+    .Book_Discover a{
+      font-size: 0.6rem;
+      text-decoration: none;
+      color: #000;
     }
 
 
@@ -595,8 +608,8 @@ nav{
         
     }
     .input input{
-        height: 50px;
-        width: 330px;
+      width: 90%;
+      padding: 0.75rem;
     }
         .discover_car{
         width: 100%;
@@ -791,7 +804,7 @@ nav{
 
 .Boo {
       background-color: #ffeb00; 
-      padding: 15px 20px;
+      padding: 1rem 2rem;
       position: relative;
       width: 250px;
       overflow: hidden;
@@ -807,8 +820,8 @@ nav{
 .Book_strip {
       position: absolute;
       top: 0;
-      right: 20px;
-      width: 15px;
+      right: 22px;
+      width: 10px;
       height: 100%;
       background-color:black;
       transform: skewX(-10deg);
@@ -818,7 +831,7 @@ nav{
 
 .Boo a{
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
         color: white;
     }
     .Boo:hover{
@@ -850,10 +863,10 @@ nav{
         width: 300px;
         position: absolute;
         top: 500px;
-        left: 5rem;
+        left: 3rem;
     }
     .welcome_to_company_text_area{
-        margin-right: 4rem;
+        margin-right: 6rem;
     }
 
     .welcome_to_company_text_area h5{
@@ -871,29 +884,37 @@ nav{
     width: 10px;
     }
 
-    .Boo {
+   .Boo {
       background-color: #ffeb00; 
-      /* padding: 10px 20px; */
+      padding: 1rem 2rem;
       position: relative;
-      width: 200px;
+      width: 250px;
       overflow: hidden;
       display: flex;
-     font-size: 10px;
+
       justify-content: space-between;
       align-items: center;
       clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
       transition: 0.3s ease-in-out;
-    }
+   }
     
 
     .Book_strip {
-        position: absolute;
-        top: 0;
-        right: 20px;
-        width: 15px;
-        height: 100%;
-        background-color:black;
-        transform: skewX(-10deg);
+      position: absolute;
+      top: 0;
+      right: 22px;
+      width: 10px;
+      height: 100%;
+      background-color:black;
+      transform: skewX(-10deg);
+    }
+
+
+
+    .Boo a{
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
     }
 }
 
@@ -2053,7 +2074,7 @@ nav{
    
    .trust{
     margin-top: 50px;
-    margin-left: 80px;
+    margin-left: 50px;
    }
 
     .trust h2{
@@ -2086,6 +2107,7 @@ nav{
 .text_news{
     text-align: center;
 }
+
 
 .image_news{
     display: flex;
@@ -2177,16 +2199,22 @@ nav{
 
 @media (min-width : 320px) and  (max-width: 1024px){
     .news_container{
-        width: 80%;
+        width: 100%;
         height: fit-content;
         margin-top: 400px;
     }
 
+    .gen_imge_new{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
     .image_news{
-         padding: 0 0 0 385px;
+         padding: 0 0 0 360px;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
         
     }
 
@@ -2256,6 +2284,16 @@ nav{
     .news_container h2{
         font-size: 30px;
         text-align: center;
+    }
+
+    .image_text_new img{
+    width: 2rem;
+    }
+
+    .image_text_new{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
     }
 }
 

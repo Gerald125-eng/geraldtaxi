@@ -671,12 +671,18 @@ nav{
 
 
 @media (min-width : 320px) and  (max-width: 1024px){
+
+      
+
+
     .Expert_Drivers{
         height: fit-content;
+        margin-top: 5rem;
     }
 
     .epert_driver_container{
        flex-wrap: wrap;
+       padding: 2rem;
     }
 
     .container_content_text_1 {
@@ -690,17 +696,93 @@ nav{
       top: 210px;
       left: 50px;
       
-}
+    }
+
+   /* expert_driver_container_content */
+
+    .expert_driver_container_content{
+    width: 18rem;
+     height: 38rem;
+    border: #000 solid 1px;
+    position: relative;
+    }
+
+    .expert_driver_container_content1{
+        width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content2{
+        width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content3{
+       width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content4{
+       width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content5{
+        width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content6{
+    width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+
+
+
+  .epert_text h1{
+    font-size: 2rem;
+    }
+    .epert_text h5{
+       font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .container_content_text_2 img {
         margin-top: 30px;
-        width: 200px;
+        width: 210px;
         height: 35vh;
         transform: rotate(0deg);
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         position: absolute;
         top: 160px;
-        left: 40px;
+        left: 38px;
         
     }
 

@@ -83,7 +83,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 10px 10px;
     width: 100%;
     height: 100px;
     background: #000;
@@ -110,9 +110,10 @@ nav{
     display: flex;
     gap: 10px;
 }
+
 .cart_search img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .Book {
@@ -273,20 +274,20 @@ nav{
 
 .background_image{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     
 }
 
 .background_image img{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     position: relative;
     
 }
 .text_background{
     position: absolute;
     top: 350px;
-    left: 450px;
+    right: 450px;
     
 }
 
@@ -318,10 +319,24 @@ nav{
         height: 50vh;
     }
     .text_background{
+        height: fit-content;
         position: absolute;
         top: 230px;
         left: 120px;
         
+    }
+
+
+    .text_background{
+    position: absolute;
+    top: 180px;
+    right: 40px;
+    
+    }
+
+    .text_background h1{
+    font-size: 30px;
+    color: white;
     }
 
     .text_background p{
@@ -684,7 +699,7 @@ nav{
 
 
 .div_online img{
-    height: 80vh;
+    height: fit-content;
     
 }
 
@@ -712,7 +727,6 @@ nav{
 @media (min-width : 320px) and  (max-width: 1024px){
     .Online_Store{
         width: 100%;
-        height: fit-content;
         display: none;
     }
     .div_online{
@@ -960,13 +974,13 @@ nav{
 .Recent_container{
     display: flex;
     overflow: scroll;
-    justify-content: center;
-    align-items: center;
     gap: 1rem;
    padding: 0;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .Recent_container::-webkit-scrollbar{
     display: none;
@@ -974,18 +988,26 @@ nav{
 
 
 @media (min-width : 320px) and  (max-width: 1024px){
+    .gen_div{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
      .Recent_container{
         height: fit-content;
+        justify-content: center;
+         width:84%;
         
      }
 
      .News__Updates{
-        flex-direction: column;
+        justify-content: center;
         height: fit-content;
-        /* justify-content: center; */
         align-items: center;
-        /* margin-left: -18px; */
+          margin-top: 0;
      }
+     
 }
 
 @media (min-width : 768px) and  (max-width: 1024px){
@@ -1032,7 +1054,7 @@ nav{
     width: 100%;
     height: 200px;
     align-items: center;
-    padding: 30px 30px;
+    padding: 5rem;
 }
 .logo2 p{
     color: white;
@@ -1066,7 +1088,8 @@ nav{
 
 .footer_download{
     display: flex;justify-content: space-between;
-    padding: 30px 30px;
+    padding: 5rem;
+    gap: 1rem;
     
 }
 .download h1{

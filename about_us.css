@@ -242,7 +242,7 @@ nav{
     }
 
     .nav_link_second{
-    display: block;
+    display: none;
     position: absolute;
     top: 50px;
     width: 400px;
@@ -871,20 +871,26 @@ nav{
     .Order{
         width: 100%;
         height: fit-content;
+        margin-top: 3rem;
        
     }
     .Taxi_Online{
         width: 100%;
         height: fit-content;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     .Taxi_Online_container{
         flex-direction: column;
         height: 50vh;
-        gap: 20px;
+        gap: 8rem;
 
 
     }
-        .diagonal_Taxi_Online_container {
+    .Order h1{
+        font-size: 2rem;
+    }
+    .diagonal_Taxi_Online_container {
         display: none;
        
     }
@@ -906,6 +912,10 @@ nav{
 
         .diagonal_Taxi_container_image img{
         width: 80px;
+    }
+
+    .diagonal_Taxi_container_image img{
+    width: 2rem;
     }
 }
 
@@ -1065,12 +1075,13 @@ nav{
         top: 200px;
         left: 55px;
     }
+
     .profile_client{
     margin-top: 20px;
     display: flex;
     align-items: center;
     gap: 30px;
-}
+    }
 }
 
 
@@ -1090,7 +1101,7 @@ nav{
     }
       .diagonal_Testimonials_img {
         width: 650px;
-        height: 40vh;
+        height: 35vh;
         background-image: url(./Image/features1-1.jpg);
         transform: rotate(0deg);
         position: relative;
@@ -1098,10 +1109,30 @@ nav{
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         position: absolute;
         top: 200px;
-        left: 46px;
+        left: 105px;
     }
+
+    .profile_client{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    }
+
+    .profile_client_text h1{
+        font-size: 18px;
+    }
+    .profile_client img{
+        margin-top: 2rem;
+        width: 50px;
+    }
+    .profile_client_text h5{
+        font-size: 20px;
+    }
+
+    
 }
- /* <!-- Testimonials end here--> */
+/* <!-- Testimonials end here--> */
 
 
 
@@ -1109,7 +1140,7 @@ nav{
 
 
 
-/* <!-- Our Expert Drivers --> */
+
 /* <!-- Our Expert Drivers --> */
 
 .Expert_Drivers{
@@ -1393,12 +1424,18 @@ nav{
 
 
 @media (min-width : 320px) and  (max-width: 1024px){
+
+      
+
+
     .Expert_Drivers{
         height: fit-content;
+        margin-top: 5rem;
     }
 
     .epert_driver_container{
        flex-wrap: wrap;
+       padding: 2rem;
     }
 
     .container_content_text_1 {
@@ -1412,17 +1449,93 @@ nav{
       top: 210px;
       left: 50px;
       
-}
+    }
+
+   /* expert_driver_container_content */
+
+    .expert_driver_container_content{
+    width: 18rem;
+     height: 38rem;
+    border: #000 solid 1px;
+    position: relative;
+    }
+
+    .expert_driver_container_content1{
+        width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content2{
+        width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content3{
+       width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content4{
+       width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content5{
+        width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+    .expert_driver_container_content6{
+    width: 18rem;
+     height: 38rem;
+        border: #000 solid 1px;
+        position: relative;
+    }
+
+
+
+
+  .epert_text h1{
+    font-size: 2rem;
+    }
+    .epert_text h5{
+       font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .container_content_text_2 img {
         margin-top: 30px;
-        width: 200px;
+        width: 210px;
         height: 35vh;
         transform: rotate(0deg);
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         position: absolute;
         top: 160px;
-        left: 40px;
+        left: 38px;
         
     }
 
@@ -1459,6 +1572,8 @@ nav{
 
 
 
+
+
 /* <!-- Our Expert Drivers end here--> */
 /* <!-- Our Expert Drivers end here--> */
 
@@ -1485,7 +1600,7 @@ nav{
 
 
 .div_online img{
-    height: 80vh;
+    height: fit-content;
     
 }
 
